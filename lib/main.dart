@@ -1,7 +1,8 @@
+import 'package:brick_breaker_flutter_game/src/game_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const GameApp());
 }
 
 class MyApp extends StatelessWidget {
