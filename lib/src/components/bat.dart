@@ -20,7 +20,7 @@ class Bat extends PositionComponent
   final Radius cornerRadius;
 
   final _paint = Paint()
-    ..color = const Color(0xff1e6091)
+    ..color = const Color(0xff2BB2F4)
     ..style = PaintingStyle.fill;
 
   @override
@@ -47,7 +47,7 @@ class Bat extends PositionComponent
         (position.x + dx).clamp(width / 2, game.width - width / 2),
         position.y,
       ),
-      EffectController(duration: 0.1),
+      EffectController(duration: 0.01),
     ));
   }
 }
